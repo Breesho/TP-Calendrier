@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4b4bbd;
+    color: white;
+    text-align: center;
+    line-height: 15vh;
+}
+h2 {
+    margin: 0;
+}
+form {
+    margin: 50px;
+  
+}
+
+table {
+    width: 80%;
+    height: 50vh;
+    margin:  50px auto;
+    text-align: center;
+    background-color: whitesmoke;
+    border-collapse: collapse;  
+}
+caption {
+    background-color: #4b4bbd;
+    color: white;
+    line-height: 50px;
+    height:auto;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    border-bottom: 2px solid;
+}
+#prev {
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    border-right: 2px solid;
+    font-size: 20px;
+    padding-right: 10px;
+}
+#next {
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+   border-left: 2px solid;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+select {
+    border: none;
+    background-color: #4b4bbd;
+    color: white;
+    padding: 15px;
+   
+
+}
+select option:disabled {
+color: white;
+}
+input {
+    border: none;
+    background-color: #4b4bbd;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+option {
+    border: none;
+}
+tr {
+    background-color: white;
+}
+th {
+    background-color: rgb(75, 75, 189);
+    color: white;
+}
+td {
+ width: 14.28%;
+ height: auto;
+ transition: all 0.5s;
+}
+td:hover {
+    background-color: #4b4bbd;
+    color: white;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+h4 {
+    margin: 0 auto;
+    text-align: center;
+    line-height:50vh;
+    font-size: 50px;
+    color: #4b4bbd;
+}
